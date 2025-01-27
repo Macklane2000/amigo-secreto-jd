@@ -18,7 +18,7 @@ function agregarAmigo() {
     amigos.push(nombre); // Agrega el nombre al array
 
             const item = document.createElement('li'); // Crea un nuevo elemento de lista
-            item.textContent = amigos; // Asigna el nombre al elemento
+            item.textContent = nombre; // Asigna el nombre al elemento
             lista.appendChild(item); // Agrega el elemento a la lista visible
 
             input.value = ''; // Limpia el campo de entrada
